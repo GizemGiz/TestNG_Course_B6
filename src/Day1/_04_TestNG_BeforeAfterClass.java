@@ -2,10 +2,10 @@ package Day1;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
-public class _3_TestNG_BeforeAfterClass {
+public class _04_TestNG_BeforeAfterClass {
 
     @BeforeClass //WILL GET EXECUTED BEFORE ANY @Test gets executed - at the beginning (only 1 time)
     public void beforeClass(){

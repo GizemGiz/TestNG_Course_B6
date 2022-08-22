@@ -1,11 +1,10 @@
 package Day1;
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class _2_TextNG_BeforeAfterMethod {
+public class _05_TextNG_BeforeAfterMethod {
 
     @BeforeMethod //wil get executed before each @Test
     public void beforeMethod(){

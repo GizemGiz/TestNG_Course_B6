@@ -1,16 +1,16 @@
 package Day2;
 
-import net.bytebuddy.asm.Advice;
-import org.checkerframework.checker.units.qual.A;
-import org.checkerframework.checker.units.qual.Temperature;
+
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.net.Socket;
 import java.util.Random;
 
 public class _1_TestNG_Assertions {
+
+    // green tick: no error in test
+    //yellow x: error in test
+    // white : test cannot run.skip
 
     @Test
     public void assertEquals() {

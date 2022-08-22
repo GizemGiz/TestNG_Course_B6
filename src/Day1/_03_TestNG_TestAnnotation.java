@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class _1_TestNG_TestAnnotation {
+public class _03_TestNG_TestAnnotation {
 
     @Test
     public void test1(){
